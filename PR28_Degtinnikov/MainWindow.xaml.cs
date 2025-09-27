@@ -26,7 +26,7 @@ namespace PR28_Degtinnikov
         {
             InitializeComponent();
             init = this;
-            //frame.Navigate();
+            frame.Navigate(new Pages.GlavPage.GlavPage());
         }
     }
 }
